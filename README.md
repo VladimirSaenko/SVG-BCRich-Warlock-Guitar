@@ -1,6 +1,6 @@
-# SVG-Custom-Warlock-Guitar
+# SVG-BCRich-Warlock-Guitar
 
-## Кастомная гитара B.C. Rich Warlock | Custom guitar Warlock B.C Rich company
+## Кастомная гитара Warlock B.C Rich| Custom guitar Warlock B.C Rich company 
 
 ## Codepen: https://codepen.io/vladimirsaenko/pen/xxPZpEp
 
