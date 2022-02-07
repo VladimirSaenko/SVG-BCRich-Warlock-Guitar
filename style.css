@@ -7,7 +7,7 @@
     font-family: 'Comforter', cursive;
 }
 
-body {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,6 +25,8 @@ body {
     height: 125px;
     background: #000;
     border-radius: 30px;
+    border-right: 15px solid rgb(59, 56, 56);
+    border-left: 15px solid rgb(59, 56, 56);
 }
 
 .inputs div {
@@ -47,24 +49,29 @@ body {
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
     svg {
-        margin-top: 25px;
-        transform: rotate(-90deg);
-        width: 465px;
-        height: 365px;
-    }
-
-    body {
-        justify-content: space-around;
+        transform: rotate(-45deg);
+        width: 455px;
+        height: 355px;
     }
 
     .inputs {
-        margin-top: 30px;
-        flex-direction: column;
-        width: 50vw;
-        height: 45%;
+        margin-top: 35px;
+        flex-direction: row;
+        width: 90vw;
+        height: 15%;
+        border: none;
     }
 
     .inputs div {
-        margin: 50px 0px;
+        margin: 0px 50px;
+        white-space: nowrap;
+    }
+
+    .inputs div p {
+        font-size: 34px;
+    }
+
+    .container {
+        overflow: hidden;
     }
 }
