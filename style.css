@@ -24,9 +24,7 @@
     width: 450px;
     height: 125px;
     background: #000;
-    border-radius: 30px;
-    border-right: 15px solid rgb(59, 56, 56);
-    border-left: 15px solid rgb(59, 56, 56);
+    border-radius: 20px;
 }
 
 .inputs div {
@@ -41,10 +39,10 @@
 
 .inputs div p {
     margin-top: 10px;
-    font-size: 35px;
+    font-size: 45px;
     color: #fff;
     font-weight: bolder;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
@@ -59,7 +57,6 @@
         flex-direction: row;
         width: 90vw;
         height: 15%;
-        border: none;
     }
 
     .inputs div {
@@ -68,7 +65,7 @@
     }
 
     .inputs div p {
-        font-size: 34px;
+        font-size: 55px;
     }
 
     .container {
