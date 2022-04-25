@@ -33,7 +33,6 @@
     font-weight: 650;
     letter-spacing: 5px;
     color: white;
-    text-shadow: black 7px 1px 1px;
     margin: 12px 0px;
 }
 
@@ -48,7 +47,6 @@
 }
 
 .inputs div p {
-    margin-top: 15px;
     font-size: 45px;
     color: #fff;
     font-weight: bolder;
@@ -68,7 +66,8 @@
 
     .inputs {
         margin-top: 35px;
-        height: 155px;
+        height: 135px;
+        width: 80vw;
     }
 
     .inputs div {
@@ -77,13 +76,7 @@
     }
 
     .inputs div p {
-        margin-top: 10px;
         font-size: 53px;
-    }
-
-    .container span {
-        margin: 0px 0px;
-        font-size: 35px;
     }
 
     .container {
@@ -96,7 +89,6 @@
         font-weight: 650;
         letter-spacing: 5px;
         color: white;
-        text-shadow: black 7px 1px 1px;
-        margin: 0px 10px;
+        margin: 0px;
     }
 }
