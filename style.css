@@ -72,7 +72,6 @@
 
     .inputs div {
         margin: 0px 15px;
-        white-space: nowrap;
     }
 
     .inputs div p {
@@ -81,7 +80,7 @@
 
     .container {
         text-align: center;
-        height: 125vh;
+        height: 175vh;
     }
 
     .container span {
